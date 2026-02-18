@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MzansiFit Gym</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">MzansiFit</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="btn">Join Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Stronger. Fitter. You.</h1> 
+      <p>24/7 access, expert coaches, and classes for every level.</p> 
+      <a href="#pricing" class="btn">View Plans</a> 
+    </div>
+  </section>
+
+  <section id="about" class="section"> 
+    <div class="container">
+      <h2>About Us</h2>
+      <p>MzansiFit is your community gym with strength, cardio, and wellness spaces.</p>
+    </div>
+  </section>
+
+  <section id="programs" class="section">
+    <div class="container grid">
+        <article class="card">
+            <h3>Weight Training</h3>
+            <p>Build muscle with free weights and machines.</p>
+        </article>
+        <article class="card">
+            <h3>Cardio Classes</h3>
+            <p>HIIT, cycling, and dance to boost stamina.</p>
+        </article>
+        <article class="card">
+            <h3>Yoga & Pilates</h3>
+            <p>Improve flexibility and core strength.</p>
+        </article>
+    </div>
+   </section>
+   
+   
+   <video autoplay muted loop id="bg-video">
+    <source src="gym-video2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+   
+   <section id="pricing" class="section">
+    <div class="container grid">
+      <article class="card">
+        <h3>Day Pass</h3>
+        <p>R80 / day</p>
+        <a href="#contact" class="btn">Get Started</a>
+      </article>
+      <article class="card">
+        <h3>Monthly</h3>
+        <p>R399 / month</p>
+        <a href="#contact" class="btn">Choose Plan</a>
+     </article>
+     <article class="card">
+        <h3>Annual</h3>
+        <p>R3,999 / year</p>
+        <a href="#contact" class="btn">Best Value</a>
+     </article>
+    </div>
+  </section>
+  
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label>
+            Name
+            <input type="text" id="name" required>
+        </label>
+        <label>
+            Email
+            <input type="email" id="email" required>
+        </label>
+        <label>
+            Message
+            <textarea id="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p id="formMsg" class="form-msg" aria-live="polite"></p>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container">
+        <small>© <span id="year"></span> MzansiFit Gym. All rights reserved.</small>
+    </div>
+ </footer>
+ 
+ <script src="script.js"></script>
+</body>
+</html>
