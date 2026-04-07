@@ -16,7 +16,9 @@ The goal of this project is to deliver a clean, user-friendly interface that enh
 - HTML5
 - CSS3
 - JavaScript
-- (Add: React / Node.js / Bootstrap if you used them)
+- React
+
+- 🚀 Live Demo: https://lebogangme.github.io/gym-application/
 
 ## 📂 Installation & Setup
 To run this project locally:
@@ -29,8 +31,9 @@ cd YOUR-REPO-NAME
 
 
 📸 Screenshots
+![Screenshot_8-4-2026_12844_127 0 0 1](https://github.com/user-attachments/assets/735d1425-8dbd-4200-ba21-16b7364ad160)
 
-(Add screenshots of your website here to showcase your design)
+
 
 🎯 Project Purpose
 
@@ -40,6 +43,6 @@ This project was built as part of my learning journey in web development to stre
 
 Metse Eunice Leferela
 
-📧 Contact
+📧 081 812 6865
 
 For opportunities, collaboration, or feedback, feel free to reach out.
