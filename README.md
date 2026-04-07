@@ -24,3 +24,22 @@ To run this project locally:
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
 cd YOUR-REPO-NAME
+
+
+
+
+📸 Screenshots
+
+(Add screenshots of your website here to showcase your design)
+
+🎯 Project Purpose
+
+This project was built as part of my learning journey in web development to strengthen my skills in front-end design, responsiveness, and user experience.
+
+🙋‍♀️ Author
+
+Metse Eunice Leferela
+
+📧 Contact
+
+For opportunities, collaboration, or feedback, feel free to reach out.
